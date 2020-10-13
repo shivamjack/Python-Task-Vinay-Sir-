@@ -28,7 +28,27 @@ l1[2][2].append(l2)
 print (l1)
 
 
+
+#with Insert method (.insert)
+l1[2][2].insert(2,70)#------> use raw l1(dont use appended one)
+print (l1)
+
+
+
+
+
+
+
+
 # In[61]:
+
+
+
+
+
+
+
+
 
 
 #add sub list [7, 8]
