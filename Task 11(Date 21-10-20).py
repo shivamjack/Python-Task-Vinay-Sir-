@@ -19,7 +19,7 @@ call = int(input('press 1 for addition, 2 for subtraction, 3 for multiplication,
 
 def addition(number1,number2):
     Jack = number1 + number2
-    print('Addition od both number is :',Jack)
+    print('Addition is :',Jack)
 def substraction(number1,number2):
     Jack = number1 - number2
     print('Substraction is :',Jack)
