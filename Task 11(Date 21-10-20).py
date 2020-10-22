@@ -11,10 +11,9 @@
 
 # In[5]:
 
-
 number1 = int(input('Enter 1st number: '))
 number2 = int(input('Enter 2nd number: '))
-call = int(input('press 1 for addition, 2 for subtraction, 3 for multiplication, 4 for division: '))
+ans = int(input('press 1 for addition, 2 for subtraction, 3 for multiplication, 4 for division: '))
 
 
 def addition(number1,number2):
@@ -31,17 +30,21 @@ def division(number1,number2):
     Jack = number1 / number2
     print('Division is: ',Jack)
         
-if call == 1:
+if ans == 1:
     addition(number1,number2)
 
-if call == 2:
+elif ans == 2:
     substraction(number1,number2)
     
-if call == 3:
+elif ans == 3:
     multiplication(number1,number2)
     
-if call == 4:
+elif ans == 4:
     division(number1,number2)
+else:
+    print("Error press only 1,2,3,4")
+
+    
 
 
 # In[ ]:
