@@ -9,7 +9,7 @@
 
 
 # In[5]:
-
+#first we have to import the function from functools
 
 from functools import reduce
 
